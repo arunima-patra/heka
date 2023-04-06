@@ -70,6 +70,12 @@ h1 {
     padding-left: 0;
 }
 
+.header-organisation-name-image {
+    width: 1em;
+    vertical-align: middle;
+    margin: 0;
+}
+
 header nav {
     display: inline-block;
     float: right;
