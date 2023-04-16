@@ -1,37 +1,21 @@
-<?php $title = "Heka"; ?>
+<?php
+
+#include "config.php";
+
+#$s = "";
+#if ($_SERVER["REQUEST_METHOD"] == "GET") {
+#	$s = $_GET['search'];
+#}
+#$q = "select * from Products where Name like '%$s%'";
+?>
 
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8">
-	<meta
-		name="viewport"
-		content="width=device-width, initial-scale=1"
-	>
-	<title>Heka</title>
-	<link
-		rel="icon"
-		type="image/x-icon"
-		href="Images/logo-aru-green.png"
-	>
-	<link
-		rel="stylesheet"
-		type="text/css"
-		href="CSS/CSSMain.css"
-	>
-	<script
-		src="https://kit.fontawesome.com/c47bfd481a.js"
-		crossorigin="anonymous"
-	></script>
-	<noscript>
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="CSS/CSSNoScript.css"
-		>
-	</noscript>
-</head>
+<?php
+	$title="Heka RX";
+	include 'head.php';
+?>
 
 <body>
 
@@ -39,6 +23,24 @@
 	$activeNavTabs = array("Home");
 	include 'template.php';
 ?>
+
+<div class="ad-column">
+	<?php
+		$adType = "desktop";
+		include 'ad.php';
+	?>
+</div>
+
+<div class="content-column">
+	<h2>Home</h2>
+</div>
+
+<div class="ad-column">
+	<?php
+		$adType = "desktop";
+		include 'ad.php';
+	?>
+</div>
 
 </body>
 

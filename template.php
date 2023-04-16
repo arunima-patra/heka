@@ -17,17 +17,17 @@
 	$headerNavTabs = array(
 						new NavTab(
 							"Cart",
-							"cart",
+							"./cart.php",
 							"cart-shopping"
 						),
 						new NavTab(
 							"Notifications",
-							"notifications",
+							"./notifications.php",
 							"bell"
 						),
 						new NavTab(
 							"Profile",
-							"./profile",
+							"./profile.php",
 							"user"
 						)
 					);
@@ -39,17 +39,17 @@
 						),
 						new NavTab(
 							"Consultation",
-							"./consultation",
-							"bell"
+							"./consultation.php",
+							"comments"
 						),
 						new NavTab(
 							"Tests",
-							"./tests",
+							"./tests.php",
 							"microscope"
 						),
 						new NavTab(
 							"Medicine",
-							"./medicine",
+							"./medicine.php",
 							"pills"
 						)
 					);
